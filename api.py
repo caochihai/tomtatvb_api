@@ -149,5 +149,5 @@ if __name__ == "__main__":
         host="0.0.0.0",
         port=5000,
         log_level="info",
-        workers=os.cpu_count() or 4
+        workers=1  
     )
