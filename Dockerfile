@@ -24,7 +24,7 @@ RUN pip install git+https://github.com/wkentaro/gdown.git
 
 # Tải mô hình
 RUN mkdir -p best_model && \
-    gdown --folder https://drive.google.com/drive/folders/18aQxqLV4qKOKmkkT7YMyItQe6LYFQDcq -O best_model
+    gdown --folder https://drive.google.com/drive/folders/186w5qWAW9Z_nRrYNqJniDYEHtyfNE1-A -O best_model
 
 # Mở cổng
 EXPOSE 5000
