@@ -24,8 +24,8 @@ class TextSummarizer:
 
     def __init__(
         self,
-        model_path: str = '../../best_model',
-        tokenizer_path: str = '../../best_model'
+        model_path: str = '../best_model',
+        tokenizer_path: str = '../best_model'
     ):
         """Initialize the TextSummarizer with model and tokenizer paths.
 
